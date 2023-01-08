@@ -1,0 +1,216 @@
+/* Primary and title color text */
+:root {
+    --primary-text-color: #434455;
+    --title-text-color: #2E2F42;
+    --link-text-cont: #434455;
+    --body-bcg-color: #E5E5E5;
+    --logo-text-color: #4D5AE5;
+    --site-nav-link: #404BBF;
+    --hero-title-button: #FFFFFF;
+    --hero-bcg-button: #4D5AE5;
+    --hero-hover-button: #404BBF;
+    --rows-text-color: #434455;
+    --logo-text-footer: #F4F4FD;
+
+}
+
+/* portfolio buttons */
+:root {
+    --primary-btn-color: #404BBF;
+    --secondary-btn-color: #E7E9FC;
+    --border-btn-color: #E7E9FC;
+    --primary-btntext-color: #FFFFFF;
+    --secondary-btntext-color: #4D5AE5;
+
+}
+
+/* background-color and basic text color*/
+body {
+    background-color: var(--body-bcg-color);
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* style  logo */
+.logo {
+    color: var(--logo-text-color);
+    width: 44px;
+    height: 22px;
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    text-decoration: none;
+}
+
+.logo-studio {
+    color: var(--title-text-color);
+    width: 71px;
+}
+
+/* delete the list's marker */
+ul {
+    list-style: none;
+}
+
+/* site navigation */
+.link {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    width: 66px;
+    height: 24px;
+    color: var(--title-text-color);
+    text-decoration: none;
+}
+
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--site-nav-link);
+    border-radius: 2px;
+    text-decoration: underline;
+}
+
+/* contacts */
+.link-contacts {
+    color: var(--link-text-cont);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.link-contacts:hover,
+.link-contacts:focus {
+    color: var(--site-nav-link);
+    text-decoration: underline;
+}
+
+/* section header-text color */
+.section-title-feature {
+    color: var(--title-text-color);
+    font-weight: 700;
+    /*в макете стоит500 */
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+/* H2 */
+.section .section-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    /* width: 323px;
+    height: 40px; 
+    left: 559px;
+    top: 1016px;
+    position: absolute; */
+}
+
+/* H3 */
+.section .section-title-name {
+    color: var(--title-text-color);
+    font-weight: 700;
+    /*в макете стоит 500 */
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.section p {
+    font-size: 16px;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+/* Выравнивание абзаца слева в секции 1  */
+.text p {
+    text-align: left;
+}
+
+/* Hero */
+.hero-title {
+    color: var(--hero-title-button);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.hero-button {
+    background: var(--hero-bcg-button);
+    color: var(--hero-title-button);
+    border-color: transparent;
+    cursor: pointer;
+
+}
+
+.hero .hero-button:hover,
+.hero .hero-button:focus {
+    background: var(--hero-hover-button);
+}
+
+/* footers' style */
+footer p {
+    color: #E7E9FC;
+    width: 264px;
+    height: 72px;
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+
+footer {
+    background-color: #2E2F42;
+}
+
+.white {
+    color: var(--logo-text-footer);
+}
+
+/* portfolio page */
+/* buttons */
+.primary-button {
+    background: var(--primary-btn-color);
+    color: var(--primary-btntext-color);
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.primary-button:hover,
+.primary-button:focus {
+    border: 1px solid var(--primary-btn-color);
+}
+
+.second-button {
+    background: var(--secondary-btn-color);
+    color: var(--secondary-btntext-color);
+    border-color: var(--border-btn-color);
+    cursor: pointer;
+}
+
+.second-button:hover,
+.second-button:focus {
+    border: 1px solid var(--border-btn-color);
+}
+
+.rows .section-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
+
