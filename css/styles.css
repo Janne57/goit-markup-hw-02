@@ -22,7 +22,7 @@
     --secondary-btntext-color: #4D5AE5;
 }
 
-/* background-color and basic text color*/
+/* background-color and basic text color of body*/
 body {
     background-color: var(--body-bcg-color);
     color: var(--primary-text-color);
@@ -92,22 +92,16 @@ ul {
     line-height: 1.2;
 }
 
-/* H2 */
+/* H2 of section 3 in the main*/
 .section .section-title {
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
-    /*letter-spacing: 0.02em;
-    width: 323px;
-    height: 40px; 
-    left: 559px;
-    top: 1016px;
-    position: absolute; */
 }
 
-/* H3 */
+/* H3 of section 3 in the main */
 .section .section-title-name {
     color: var(--title-text-color);
     font-weight: 700;
@@ -144,7 +138,7 @@ ul {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
-    }
+}
 
 .hero-button {
     background: var(--hero-bcg-button);
@@ -176,7 +170,7 @@ ul {
 footer {
     background-color: var(--footer-bcg-color);
 }
-
+ 
 .white {
     color: var(--logo-text-footer);
 }
