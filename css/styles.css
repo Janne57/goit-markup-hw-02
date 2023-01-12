@@ -15,6 +15,7 @@
     --footer-text: #E7E9FC;
     --footer-bcg-color: #2E2F42;
     /* portfolio buttons */
+    --current-text-color: #4D5AE5;
     --primary-btn-color: #404BBF;
     --secondary-btn-color: #E7E9FC;
     --border-btn-color: #E7E9FC;
@@ -34,7 +35,8 @@ body {
 
 /* style  logo */
 .logo {
-    color: var(--logo-text-color);
+    /* у хедері задає колір по макету для текстових елементів */
+    color: var(--logo-text-color);  
     height: 22px;
     font-family: Raleway, sans-serif;
     font-weight: 800;
@@ -44,6 +46,7 @@ body {
 }
 
 .logo-studio {
+    /* у хедері задає колір по макету для текстових елементів */
     color: var(--title-text-color);
 }
 
@@ -59,6 +62,7 @@ ul {
     line-height: 1.5;
     width: 66px;
     height: 24px;
+    /* у хедері задає колір по макету для текстових елементів */
     color: var(--title-text-color);
     text-decoration: none;
 }
@@ -72,6 +76,7 @@ ul {
 
 /* contacts */
 .link-contacts {
+    /* у хедері задає колір по макету для текстових елементів */
     color: var(--link-text-cont);
     font-size: 16px;
     line-height: 1.5;
@@ -110,17 +115,17 @@ ul {
     text-align: center;
 }
 
-.section p {
+.section-p {
     font-size: 16px;
     line-height: 1.15;
     text-align: center;
 }
 
 /* Выравнивание абзаца слева в секции 1  */
-.text p {
+.text-p {
     text-align: left;
     font-size: 16px;
-    line-height: 24px;
+    line-height: calc (24 / 16);
 }
 
 
@@ -176,12 +181,20 @@ footer {
 }
 
 /* portfolio page */
+
+/* active color-text "Portfolio" */
+.current {
+    color: var(--current-text-color);
+}
+
+
 /* buttons */
 .primary-button {
     color: var(--primary-btn-color);
     background: var(--secondary-btn-color);
     border-color: var(--border-btn-color);
     cursor: pointer;
+
 
     font-family: Roboto, sans-serif;
     font-weight: 500;
