@@ -36,7 +36,7 @@ body {
 /* style  logo */
 .logo {
     /* у хедері задає колір по макету для текстових елементів */
-    color: var(--logo-text-color);  
+    color: var(--logo-text-color);
     height: 22px;
     font-family: Raleway, sans-serif;
     font-weight: 800;
@@ -132,7 +132,6 @@ ul {
 /*H2 на главной странице*/
 .letter {
     text-transform: capitalize;
-
 }
 
 /* Hero */
@@ -175,7 +174,7 @@ ul {
 footer {
     background-color: var(--footer-bcg-color);
 }
- 
+
 .white {
     color: var(--logo-text-footer);
 }
